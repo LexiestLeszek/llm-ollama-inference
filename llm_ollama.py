@@ -1,10 +1,4 @@
-from langchain_community.llms import Ollama
 import ollama
-
-# pip3.11 install local-llm-function-calling
-
-# Initialize the LLM model
-#ollama_model = Ollama(model="qwen:1.8b", temperature=0.5)
 
 def get_context():
     context = "Elon Actually ate the testiest pizza yesterday"
